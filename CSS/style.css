@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+   background-image: url("../IMAGES/fruit.jpg");
+   background-size: cover;
+   font-family: Helvetica, Arial, sans-serif;
+   margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 25px;
+}
+
+h2 {
+    color:black;
+    font-size: 20px;
+    margin: -20px;
+}
+
+h3 {
+    padding: 0;
+    font-size: 12px;
+    color: black;
+}
+
+h5 {
+    float: left;
+    margin-left: 630px;
+    margin-top: 5px;
+}
+
+blog {
+    float: left;
+    background-color: #ef7575;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 92.5%;
+}
+
+article {
+    background:floralwhite;
+
+}
+
+article h3 {
+    float: left;
+    width: 95%;
+    background:floralwhite;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+article h4 {
+    float: left;
+    width: 95%;
+    height: 10px;
+    background: floralwhite;
+    color: #CCC;
+    padding: 20px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+table {
+    background: floralwhite;
+    width: 100%;
+    float: right;
+}
+
+#container {
+    background-color: floralwhite;
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    overflow: hidden;
+    color: crimson;
+    text-align: left;
+    padding: 0px;
+}
+
+.content {
+    padding: 0;
+}
+
+
+.topnav {
+    width: 100%;
+    background-color: cornflowerblue;
+    line-height: 35px;
+    float: left;
+}
+
+.topnav a {
+    display: block;
+    color: dimgray;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.topnav ul {
+    float: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #e22124;
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #bcc7db;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a{
+    border-radius: 4px;
+}
+
+.topnav ul li ul li a:hover {
+    background-color: lavender;
+
+}
+
+.slider_image {
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: left;
+    clear: both;
+}
+
+.flex-container > div {
+    color: white;
+    margin: 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 30px;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container1 > div {
+color: white;
+width: 200px;
+margin: 0px;
+text-align: center;
+line-height: 25px;
+font-size: 30px;
+width: 30%;
+}
+
+.flex-container2 {
+    display: flex;
+    background-color: #f1f1f1;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container2 > div {
+    background-color: azure;
+    color: white;
+    width: auto;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    width: 50%;
+}
+.footer {
+    text-align: center;
+}
+
+.flex-container3 {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container3 > div > li {
+    color: black;
+}
+
+.flex-container3 > div > div > li {
+    color: black;
+}
+
+.flex-container3 > div {
+    background-color: #cbeded;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.flex-container3 > div > h1 {
+    background-color: #cbeded;
+    color: green;
+    width: 85%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.flex-container3 > div > h2 {
+    background-color: #cbeded;
+    color: purple;
+    width: 85%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.flex-container3 > div > h3 {
+    background-color: #cbeded;
+    color: violet;
+    width: 85%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.flex-container3 > div > div > h4 {
+    background-color: #cbeded;
+    color: red;
+    width: 85%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.flex-container3 > div > div > h5 {
+    background-color: #cbeded;
+    color: orange;
+    width: 85%;
+    margin: 0px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.flex-container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container4 > div {
+color: white;
+width: 200px;
+margin: 0px;
+text-align: left;
+line-height: 25px;
+font-size: 30px;
+width: 45%;
+}
+
+.carousel-wrapper{
+    height: 400px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5% ease-in-out;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev{
+    left: -30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%) rotate(-45deg)
+}
+
+.light {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}
+
+/*Select everyy element*/
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+background:url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
+}
+
+.item-2 {
+    background: url('https://static.pexels.com/photos/6506/alcohol-bar-drinks-party-large/jpg');
+}
+
+.item-3 {
+    background: url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
+}
+
+:target- .item-1 {
+    opacity: 0;
+}
+
+#item-1:target- .item-1 {
+    opacity: 1;
+}
+
+#item-2:target- .item-2, #item-3:target- .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
